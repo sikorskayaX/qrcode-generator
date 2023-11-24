@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR-code generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="lib/qrcode.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
     <section>
         <h1>QR-code generator</h1>
+        <p class = "description">Input your website adress and click the button "Generate", after that you will see QR-code below</p>
+    </section>
+    <section class = "form">
+        <input type="url" name = "url" placeholder="Input link">
+        <button>Generate</button>
+    </section>
+    <section>
+        <hr>
+    </section>
+    <section class="qrcode">
+        <div id = "qrcode"></div>
     </section>
 </body>
 </html>

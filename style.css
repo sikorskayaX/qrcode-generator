@@ -2,13 +2,54 @@
     margin: 0;
     font-family: sans-serif;
 }
-
+body{
+    padding: 40px 40px;
+}
 section{
-    max-width: 1000;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 h1 {
     font-size: 60px;
     color: cadetblue;
+}
+
+.description 
+{
+    padding: 15px 0;
+}
+
+.form 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+input[type = "url"]
+{
+    font-size: 30px;
+    width: 70%;
+}
+
+button{
+    font-size: 25px;
+    width: 20%;
+}
+
+hr 
+{
+    margin-bottom: 40px;
+}
+
+.qrcode{
+    display: flex;
+    justify-content: center;
+}
+
+#qrcode {
+    width: 256px;
+    height: auto;
+    
 }
