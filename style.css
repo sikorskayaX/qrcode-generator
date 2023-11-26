@@ -37,8 +37,18 @@ button{
     font-size: 25px;
     width: 20%;
     border-radius: 5px;
-    background-color: azure;
+    background-color: rgb(249, 255, 255);
     color: cadetblue;
+}
+
+button:hover
+{
+    background-color: rgb(223, 235, 235);
+}
+
+button:focus
+{
+    transform: scale(0.98);
 }
 
 hr 
