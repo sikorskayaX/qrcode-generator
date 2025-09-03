@@ -80,3 +80,9 @@ hr
 {
     display: block;
 }
+
+.input {
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
